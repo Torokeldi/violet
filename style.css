@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Playfair Display, sans-serif;
+    src: url(fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:Playfair Display, italic;
+    src: url(fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Arvo;
+    src: url(fonts/Arvo/Arvo-Bold.ttf);
+}
+
+@font-face {
+    font-family:Montserrat, italic;
+    src: url(fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Montserrat, sans-serif;
+    src: url(fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+header{
+    background-image: url(img/BG.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.head-container{
+    padding: 16px 70px 3px 159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head__titles{
+    display: flex;
+    flex-direction: row;
+}
+
+.head-title1{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.head-title2{
+    color: #FFC80A;
+    font-family:Playfair Display, italic;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.head-wrap{
+    display: flex;
+    flex-direction: row;
+    min-width: 670px;
+    justify-content: space-between;
+}
+
+.head-menu{
+    display: flex;
+    flex-direction: row;
+    min-width: 570px;
+    justify-content:space-around ;
+    padding: 10px 0px 30px 0px;
+}
+
+.head-menu li{
+    list-style: none;
+}
+
+.head-menu a{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.head-wrap svg{
+    margin-top: 15px;
+}
+
+.head-info{
+    margin: 103px 0px 0px 159px;
+}
+
+.head-txt{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+}
+
+.head-info-titles{
+    display: flex;
+    height: 318px;
+    flex-direction: column;
+}
+
+.head-info-title1, .head-info-title2, .head-info-title3{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 106px;
+}
+
+.head-btn{
+    margin: 47px 0px 111px 0px;
+    padding: 17px 33px 17px 33px;
+    border-radius: 50px;
+    background: #FFC80A;
+    border: none;
+}
+
+section{
+    margin-right: 80px;
+}
+
+.section-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 0px 76px 79px;
+}
+
+.section-head-left{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section-head-title{
+    color: #212121;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.section-head-right{
+    visibility: hidden;
+}
+
+.section-info {
+    display: grid; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    margin-left: 97px;
+ }
+
+ #item-5 {
+   grid-column: 2/4;
+ }
+
+.img-section{
+    min-width: 360px;
+    min-height: 241px;
+}
+
+.img-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.item-info{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    min-width: 360px;
+    min-height: 140px;
+    display: flex;
+    padding: 19px 66px 22px 25px;
+}
+
+.item-title{
+    color: #212121;
+    font-family: Arvo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.txt-section{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9FA3A7;
+    padding-right: 62px;
+}
+
+.item-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    display: flex;
+    gap: 10px;
+}
+.two{
+    display: flex;
+    gap: 10px;
+
+}
+.item-footer-txt{
+    color: #9FA3A7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-num{
+    color: #9FA3A7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+#item-3 .item-info{
+    background: #292929;
+}
+
+#item-3 .item-title{
+    color: #fff;
+}
+
+#item-4 .item-info{
+    background: #FFC80A;
+}
+
+#item-4 .item-title{
+    color: #fff;
+}
+
+#item-4 p{
+    color: #fff;
+}
+
+#item-4 svg{
+    background: #FFC80A;
+}
+
+footer{
+    background: #2C2C2C;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-block{
+    margin-top: 78px;
+}
+
+.footer-list li{
+    list-style: none;
+}
+
+.footer-title{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.footer-list{
+    color: #9FA3A7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    margin-top: 17px;
+    flex-direction: column;
+    gap: 10px
+}
+
+.svg-list{
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+}
+
+.svg-list li{
+    margin-top: 28px;
+    list-style: none;
+}
+
+.footer-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:30px;
+    margin-bottom: 64px;
+}
+
+.footer-down-title{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.downweb{
+    color: rgba(200, 200, 200, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 400;
+    line-height: 22px; /* 183.333% */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
